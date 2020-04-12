@@ -1,0 +1,27 @@
+{
+  "name": "gelatomusic",
+  "version": "1.0.0",
+  "description": "Discover top songs from from artists you haven't heard of",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DipoAreoye/GelatoMusic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DipoAreoye/GelatoMusic/issues"
+  },
+  "homepage": "https://github.com/DipoAreoye/GelatoMusic#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  }
+}

@@ -1,0 +1,28 @@
+GET http://localhost:3000/posts
+
+###
+
+GET http://localhost:3000/posts/5e92d98a3aecde30ba913e90
+
+###
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "name" : "Waze",
+    "songUrl": "https://www.youtube.com/watch?v=VpD29TcC7cU"
+}
+
+###
+
+DELETE http://localhost:3000/posts/5e92d98b3aecde30ba913e91
+
+###
+
+PATCH  http://localhost:3000/posts/5e92d99c45484430d982dd2f
+Content-Type: application/json
+
+{
+    "name" : "Waze FT Chip"
+}
